@@ -1,0 +1,66 @@
+body,
+button {
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.controls {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.menu {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	margin: 0 auto;
+	border: 1px dotted #37474f;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+}
+
+.sub-heading {
+	font-size: 1.4rem;
+	color: #37474f;
+	margin-top: 0;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	color: #37474f;
+	margin-top: 40px;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 10px;
+}
+
+.items {
+	padding: 50px;
+}
+
+button {
+	border: 1px dotted #37474f;
+	padding: 10px 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+@media print {
+	.controls {
+		display: none;
+	}
+}

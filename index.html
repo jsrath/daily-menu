@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <title>Daily Menu</title>
+</head>
+
+<body>
+  <div class="controls">
+    <button class="regen">Regenerate Menu</button>
+    <button class="print">Print Menu</button>
+  </div>
+  <div class="menu printarea">
+    <div class="items">
+      <h1 class="name">The Brickhouse</h1>
+      <h4 class="sub-heading">&#9778; Daily Menu &#9778;</h4>
+      <h1 class="price"></h1>
+      <div class="menu-item" id="Appetizer"></div>
+      <div class="menu-item" id="Main"></div>
+      <div class="menu-item" id="Side"></div>
+      <div class="menu-item" id="Drink"></div>
+      <div class="menu-item" id="Dessert"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
